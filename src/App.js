@@ -4,8 +4,10 @@ import './App.css';
 import Header from "./components/Header/Header";
 import MobileMenu from "./components/Menu/MobileMenu";
 import Footer from "./components/Footer/Foot";
-import Body from "./Body";
+import Home from  "./pages/home";
+// import Body from "./Body";
 import Test from "./test/Test";
+import { homedir } from 'os';
 
 // const getNewList=()=>{
 //   return axios.get(host)
@@ -18,15 +20,15 @@ import Test from "./test/Test";
 function App() {
  
   return (
-    <div className="App">
+    <div className="site">
 
 
  
 {/* <Test></Test> */}
      <Header></Header>
-
+<Home></Home>
        {/* site__footer */}
-
+<Footer></Footer>
   {/* site__footer / end */}
 
   </div>
