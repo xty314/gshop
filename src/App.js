@@ -15,10 +15,11 @@ function App() {
     <div className="site">
 
      <Header></Header>
+     <Link to={'/test?c=3'}  key='dd' className="ddd">ddd</Link>
      <Switch>
       <Route exact path='/' component={Home}/>
       {/* <Route path='/test' component={Products}/> */}
-      <Route path='/test?c=1' component={Products}/>
+      <Route path='/test' component={Products}/>
     </Switch>
 
     <Footer></Footer>
